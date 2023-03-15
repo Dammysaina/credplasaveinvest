@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 const CustomButton = (props) => {
     return (
         // eslint-disable-next-line react/prop-types
-        <Button buttonColor={props.buttonColor} buttonWidth={props.buttonWidth} buttonHeight={props.buttonHeight}>
+        <Button buttonColor={props.buttonColor} buttonWidth={props.buttonWidth} buttonHeight={props.buttonHeight} textColor={props.textColor}>
             {props.children}
         </Button>
     )

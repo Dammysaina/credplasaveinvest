@@ -3,14 +3,15 @@ import Styled from "styled-components";
 const Button = Styled.button`
 background: ${(props) => props.buttonColor};
 border: none;
-border-radius: 5px;
+border-radius: 5rem;
 // box-shadow: 0px 4px 8px rgba(50, 50, 71, 0.06), 0px 4px 4px rgba(50, 50, 71, 0.08);
 height: ${(props) => props.buttonHeight};
 width: ${(props) => props.buttonWidth};
-color: #ffffff;
-font-weight: 300;
-font-size: 1rem;
+color: ${(props)=> props.textColor};
+font-weight: 550;
+font-size: 0.9rem;
 line-height: 22px;
+padding: 1rem 1.2rem;
 cursor:pointer;
 span {
     display: flex;

@@ -1,0 +1,6 @@
+.footerone_container {
+    display: flex;
+    background-color: #F1F5FF;
+    justify-content: space-between;
+    padding: 0 0rem 0 8rem ;
+}
