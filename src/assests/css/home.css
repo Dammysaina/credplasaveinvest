@@ -5,8 +5,6 @@
   padding: 12rem 6rem 0 6rem;
 }
 .financial_needs {
-  /* width: 45rem; */
-  /* padding-right: 5rem; */
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -24,7 +22,7 @@
 .phone_image {
     position: relative;
     left: 12rem;
-    width: 18rem;
+    width: 15rem;
 }
 .frame_one {
   position: relative;
@@ -35,12 +33,71 @@
 .frame_two {
   position: relative;
   bottom: 25.6rem;
-  width: 20rem;
-  height: 9rem;
+  width: 17rem;
   right: -8rem;
 }
 .frame_three {
   position: relative;
-  top: 10rem;
+  bottom: 10rem;
   width: 17rem;
+}
+.customers_container {
+    margin: 4rem 2rem 2rem 2rem;
+}
+.our_customers {
+    text-align: center;
+}
+.our_customers h2 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+.our_customers p {
+    color: #777E90;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: -1rem 0 2.5rem 0;
+}
+.selection {
+    background-color: #F9FAFB;
+    padding: 1rem;
+    width: 30rem;
+}
+.selection_text p {
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.selection:not(:last-child) {
+    margin-right: 2rem;
+} 
+.profile_name {
+    display: flex;
+}
+.profile_name img {
+    padding-right: 1rem;
+}
+
+
+
+.forcastCard {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.building_container {
+    background-color: #006df7;
+    color: #ffffff;
+    text-align: center;
+    padding: 2.5rem 20rem;
+}
+.building_container h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.building_container p {
+    font-size: 1rem;
+    font-weight: 300;
 }
