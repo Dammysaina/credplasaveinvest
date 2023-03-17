@@ -26,19 +26,19 @@
 }
 .frame_one {
   position: relative;
-  bottom: 30rem;
-  right: 5rem;
+  bottom: 25.5rem;
+  right: -0.5rem;
   width: 17rem;
 }
 .frame_two {
   position: relative;
-  bottom: 25.6rem;
+  bottom: 19.5rem;
   width: 17rem;
-  right: -8rem;
+  right: -8.4rem;
 }
 .frame_three {
   position: relative;
-  bottom: 10rem;
+  bottom: 9rem;
   width: 17rem;
 }
 .customers_container {
@@ -60,32 +60,75 @@
 .selection {
     background-color: #F9FAFB;
     padding: 1rem;
-    width: 30rem;
+    width: 20rem;
 }
 .selection_text p {
     font-size: 0.7rem;
     font-weight: 400;
 }
-
 .selection:not(:last-child) {
     margin-right: 2rem;
 } 
+.selection:last-child {
+    position: relative;
+    right: -10rem;
+}
+.star_images {
+    margin-top: 1rem;
+}
+.star_images img:not(:last-child) {
+    padding-right:0.5rem;
+}
 .profile_name {
     display: flex;
 }
 .profile_name img {
     padding-right: 1rem;
 }
-
-
-
 .forcastCard {
     display: flex;
     justify-content: space-between;
 }
-
-
-
+.arrow_container {
+    margin: 1.1rem 0 0 65rem;
+}
+.arrow_container img{
+    background-color: #151515;
+    padding: 0.5rem;
+    width: 0.3rem;
+    border-radius: 0.2rem;
+}
+.arrow_container img:not(:last-child) {
+    margin-right: 1rem;
+}
+.payments {
+    margin: 5rem 7rem;
+}
+.payments_container {
+    display: flex;
+    justify-content: space-between;
+}
+.payments_container h1 {
+    color: #00164A;
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+.payments_container:not(:last-child) {
+    margin-bottom: 3rem;
+}
+.payments_app {
+    width: 27rem;
+    position: relative;
+    top: -2rem;
+}
+.payments_app p {
+    font-size: 1rem;
+    font-weight: 450;
+    margin-bottom: 2em;
+}
+.payments img {
+    width: 18rem;
+}
 
 .building_container {
     background-color: #006df7;

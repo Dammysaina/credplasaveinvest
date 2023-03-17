@@ -7,6 +7,14 @@ import Card from "./card";
 import Selection from "./selection";
 import "../assests/css/home.css";
 import CustomButton from "../library/custombutton";
+import Arrowleft from "../assests/images/arrowleft.svg";
+import Arrowright from "../assests/images/arrowright.svg"
+import Payment from "./paymentcard";
+
+
+
+
+
 const Home = () => {
   return (
     <div>
@@ -45,9 +53,13 @@ const Home = () => {
             );
           })}
         </div>
+        <div className="arrow_container">
+            <img src={Arrowleft} alt="arrowleft" />
+            <img src={Arrowright} alt="arrowright"/>
+        </div>
       </div>
       <div>
-
+          <Payment/>
       </div>
       <div>
 
@@ -55,7 +67,7 @@ const Home = () => {
       <div className="building_container">
         <h2>Start building your credit score today</h2>
         <p>Download our app to get started on your credit journey in Africa. Make the first move towards a better financial future today.</p>
-        <CustomButton textColor="#3772FF" buttonHeight="2rem" buttonWidth="8rem">Sign Up</CustomButton>
+        <CustomButton textColor="#3772FF" buttonWidth="12rem">Sign Up</CustomButton>
       </div>
     </div>
   );

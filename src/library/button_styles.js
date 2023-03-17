@@ -11,7 +11,7 @@ color: ${(props)=> props.textColor};
 font-weight: 550;
 font-size: 0.9rem;
 line-height: 22px;
-padding: 1rem 1.2rem;
+padding: 0.7rem;
 cursor:pointer;
 span {
     display: flex;
