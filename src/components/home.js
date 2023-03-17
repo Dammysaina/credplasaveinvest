@@ -10,6 +10,7 @@ import CustomButton from "../library/custombutton";
 import Arrowleft from "../assests/images/arrowleft.svg";
 import Arrowright from "../assests/images/arrowright.svg"
 import Payment from "./paymentcard";
+import Travel from "./travel";
 
 
 
@@ -62,7 +63,7 @@ const Home = () => {
           <Payment/>
       </div>
       <div>
-
+          <Travel />
       </div>
       <div className="building_container">
         <h2>Start building your credit score today</h2>
