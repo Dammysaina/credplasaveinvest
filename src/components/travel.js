@@ -1,12 +1,12 @@
 import React from "react";
 import move from "../assests/images/move.svg";
 import arrowforward from "../assests/images/arrowforward.svg";
-import "../assests/css/home.css"
+import "../assests/css/home.css";
 
 const Travel = () => {
   return (
     <div className="travel_container">
-      <div className="move_container move_travels">
+      <div className="move_travels">
         <div>
           <img src={move} alt="move" />
         </div>
@@ -24,16 +24,15 @@ const Travel = () => {
         </div>
       </div>
       <div>
-        <div className="move_container move_travels">
+        <div className="travel_travels">
           <div>
             <img src={move} alt="move" />
           </div>
           <div className="move_credpal">
-            <h2>Move with CredPal</h2>
+            <h2>Travel with CredPal</h2>
             <p>
-              CredPal users can pay for rides or food orders on Bolt, with the
-              option to pay now or pay later, depending on the payment options
-              available.
+              CredPal users can pay for bills and services with the option to
+              pay now or pay later, depending on the payment options available.
             </p>
           </div>
           <div className="learn_more">
@@ -43,16 +42,15 @@ const Travel = () => {
         </div>
       </div>
       <div>
-        <div className="move_container move_travels">
+        <div className="pay_travels">
           <div>
             <img src={move} alt="move" />
           </div>
           <div className="move_credpal">
-            <h2>Move with CredPal</h2>
+            <h2>Pay with CredPal</h2>
             <p>
-              CredPal users can pay for rides or food orders on Bolt, with the
-              option to pay now or pay later, depending on the payment options
-              available.
+              CredPal users can pay for fight with the option to pay now or pay
+              later, depending on the payment options available.
             </p>
           </div>
           <div className="learn_more">
@@ -62,16 +60,16 @@ const Travel = () => {
         </div>
       </div>
       <div>
-        <div className="move_container move_travels">
+        <div className="shop_travels">
           <div>
             <img src={move} alt="move" />
           </div>
           <div className="move_credpal">
-            <h2>Move with CredPal</h2>
+            <h2>Shop with CredPal</h2>
             <p>
-              CredPal users can pay for rides or food orders on Bolt, with the
-              option to pay now or pay later, depending on the payment options
-              available.
+              The CredPal marketplace offers a wide range of products from
+              various merchants, and users can choose to pay for their purchases
+              in instalments.
             </p>
           </div>
           <div className="learn_more">

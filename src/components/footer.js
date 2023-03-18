@@ -1,50 +1,112 @@
 import React from "react";
-import CustomButton from "../library/custombutton";
+import Buttonapp from "../library/appbutton";
 import Apple from "../assests/images/apple.svg";
 import Google from "../assests/images/google.svg";
 import Debitcard from "../assests/images/debitcard.svg";
 import Phone from "../assests/images/footerphone.svg";
-import "../assests/css/footer.css"
+import footerlogo from "../assests/images/footerlogo.svg";
+import "../assests/css/footer.css";
 
 const Footer = () => {
   return (
     <div className="footer_container">
-    <div className="footerone_container">
-      <div className="join_container">
+      <div className="footerone_container">
+        <div className="join_container">
+          <div>
+            <h4>Join CredPal today</h4>
+            <p>
+              Join the millions of happy customers using CredPal to access
+              credit, make payments, invest, and more by downloading the CredPal
+              app.
+            </p>
+          </div>
+          <div>
+            <Buttonapp
+              buttonColor="#011947"
+              buttonHeight="3rem"
+              buttonWidth="10rem"
+            >
+              Download on the <span>App Store</span>{" "}
+              <img className="arrow_right" src={Apple} alt="applelogo" />
+            </Buttonapp>
+            <Buttonapp
+              buttonColor="#011947"
+              buttonHeight="3rem"
+              buttonWidth="10rem"
+            >
+              Download on the <span>Google Play</span>{" "}
+              <img className="arrow_right" src={Google} alt="googlelogo" />
+            </Buttonapp>
+          </div>
+        </div>
         <div>
-          <h4>Join CredPal today</h4>
+          <img src={Debitcard} alt="Debitcard" />
+          <img src={Phone} alt="Iphone" />
+        </div>
+      </div>
+      <div className="footertwo_container">
+        <div className="footerone">
+          <div className="footerlogo_container">
+            <img src={footerlogo} alt="footerlogo" />
+            <p>CredPal is a revolutionary credit solution geared towards providing seamless credit access for businesses and individuals across developing economies.</p>
+          </div>
+          
+          <div className="aboutCompany">
+            <h1>Products</h1>
+            <p>CredPal Personal</p>
+            <p>CredPal Business</p>
+            <p>CredPal Lifestyle</p>
+          </div>
+          <div className="aboutCompany">
+            <h1>Legal</h1>
+            <p>Customer Terms of use</p>
+            <p>Merchant Terms of service</p>
+            <p>Privacy Notice</p>
+          </div>
+          <div className="aboutCompany">
+            <h1>Support</h1>
+            <p>FAQs</p>
+            <p>Blog</p>
+          </div>
+          <div className="aboutCompany">
+            <h1>Get the app</h1>
+            <div>
+            <Buttonapp
+              buttonColor="#011947"
+              buttonHeight="3rem"
+              buttonWidth="10rem"
+            >
+              Download on the <span>App Store</span>{" "}
+              <img className="arrow_right" src={Apple} alt="applelogo" />
+            </Buttonapp>
+            <Buttonapp
+              buttonColor="#011947"
+              buttonHeight="3rem"
+              buttonWidth="10rem"
+            >
+              Download on the <span>Google Play</span>{" "}
+              <img className="arrow_right" src={Google} alt="googlelogo" />
+            </Buttonapp>
+          </div>
+          </div>
+        </div>
+        <div className="footer_two">
           <p>
-            Join the millions of happy customers using CredPal to access credit,
-            make payments, invest, and more by downloading the CredPal app.
+            CredPal financial services are offered by BishopGate Microfinance
+            Bank, fully licensed and regulated by the Central bank of Nigeria.
+            CredPal offers innovative financial solutions including payment,
+            savings and credit services. Our credit solution allows businesses
+            and individuals to buy anything and pay for it in instalments across
+            online and offline Merchants by providing them with instant access
+            to credit at the point of checkout.
           </p>
         </div>
-        <div>
-          <CustomButton
-            buttonColor="#011947"
-            buttonHeight="3rem"
-            buttonWidth="10rem"
-          >
-            Download on the <span>App Store</span>{" "}
-            <img className="arrow_right" src={Apple} alt="applelogo" />
-          </CustomButton>
-          <CustomButton
-            buttonColor="#011947"
-            buttonHeight="3rem"
-            buttonWidth="10rem"
-          >
-            Download on the <span>Google Play</span>{" "}
-            <img className="arrow_right" src={Google} alt="googlelogo" />
-          </CustomButton>
+        <div className="footer_three">
+          <p>
+            We use cookies for better service. <span>Accept</span>
+          </p>
         </div>
       </div>
-      <div>
-        <img src={Debitcard} alt="Debitcard"/>
-        <img src={Phone} alt="Iphone"/>
-      </div>
-    </div>
-    <div>
-        
-    </div>
     </div>
   );
 };

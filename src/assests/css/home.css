@@ -69,10 +69,6 @@
 .selection:not(:last-child) {
     margin-right: 2rem;
 } 
-.selection:last-child {
-    position: relative;
-    right: -10rem;
-}
 .star_images {
     margin-top: 1rem;
 }
@@ -146,15 +142,30 @@
 }
 .travel_container {
     display: flex;
+    justify-content: space-between;
 }
 .move_container {
-    background-color: #F6F0EF;
     padding: 3rem 2rem 1rem 2rem;
-    /* margin-right: 1rem; */
-    /* width: 70rem; */
+    /* width: 30rem;2 */
+    /* margin: 0 1rem; */
 }
-.move_container:last-child{
+.move_container:not(:last-child){
     margin-right: 1rem;
+}
+.move_travels {
+    background-color: #F6F0EF;
+    margin-right: 1rem;
+}
+.travel_travels {
+    background-color: #F4F1F7;
+    margin-right: 1rem;
+}
+.pay_travels {
+    background-color: #E8F4FF;
+    margin-right: 1rem;
+}
+.shop_travels {
+    background-color: #EBF1FF;
 }
 .move_credpal {
     margin-top: 4rem;
@@ -170,4 +181,5 @@
     height: 0.8rem;
     position: relative;
     top: 0.8rem;
+    margin-left: 0.5rem;
 }

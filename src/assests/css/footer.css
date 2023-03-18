@@ -4,3 +4,42 @@
     justify-content: space-between;
     padding: 0 0rem 0 8rem ;
 }
+
+
+
+
+
+
+
+
+.footertwo_container {
+    margin: 4rem;
+}
+.footerlogo_container {
+    width: 20.5rem;
+    margin-right: 10rem;
+}
+.footerone {
+    display: flex;
+    justify-content: space-between;
+}
+.footerone p {
+    font-size: 0.77rem;
+    font-weight: 400;
+}
+.footer_two {
+    border-top: 1px solid #E6E8EC;
+    border-bottom: 1px solid #E6E8EC;
+    padding: 2rem 0;
+    font-size: 0.77rem;
+    font-weight: 400;
+}
+.footer_three {
+    padding-left: 45rem;
+    font-size: 0.77rem;
+    font-weight: 400;
+   
+}
+.footer_three span {
+    color: #3772FF;
+}
