@@ -13,6 +13,7 @@ font-size: 0.9rem;
 line-height: 22px;
 padding: 0.7rem;
 cursor:pointer;
+display:flex;
 span {
     display: flex;
 }

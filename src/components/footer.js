@@ -12,7 +12,7 @@ const Footer = () => {
     <div className="footer_container">
       <div className="footerone_container">
         <div className="join_container">
-          <div>
+          <div className="credpal_container">
             <h4>Join CredPal today</h4>
             <p>
               Join the millions of happy customers using CredPal to access
@@ -20,26 +20,18 @@ const Footer = () => {
               app.
             </p>
           </div>
-          <div>
-            <Buttonapp
-              buttonColor="#011947"
-              buttonHeight="3rem"
-              buttonWidth="10rem"
-            >
-              Download on the <span>App Store</span>{" "}
+          <div className="app_button">
+            <Buttonapp buttonHeight="3rem" buttonWidth="10rem">
               <img className="arrow_right" src={Apple} alt="applelogo" />
+              <p>Download on the <span>App Store</span></p>{" "}
             </Buttonapp>
-            <Buttonapp
-              buttonColor="#011947"
-              buttonHeight="3rem"
-              buttonWidth="10rem"
-            >
-              Download on the <span>Google Play</span>{" "}
+            <Buttonapp buttonHeight="3rem" buttonWidth="10rem">
               <img className="arrow_right" src={Google} alt="googlelogo" />
+              GET IT ON <span>Google Play</span>{" "}
             </Buttonapp>
           </div>
         </div>
-        <div>
+        <div className="phone_debit">
           <img src={Debitcard} alt="Debitcard" />
           <img src={Phone} alt="Iphone" />
         </div>
@@ -48,9 +40,13 @@ const Footer = () => {
         <div className="footerone">
           <div className="footerlogo_container">
             <img src={footerlogo} alt="footerlogo" />
-            <p>CredPal is a revolutionary credit solution geared towards providing seamless credit access for businesses and individuals across developing economies.</p>
+            <p>
+              CredPal is a revolutionary credit solution geared towards
+              providing seamless credit access for businesses and individuals
+              across developing economies.
+            </p>
           </div>
-          
+
           <div className="aboutCompany">
             <h1>Products</h1>
             <p>CredPal Personal</p>
@@ -71,23 +67,15 @@ const Footer = () => {
           <div className="aboutCompany">
             <h1>Get the app</h1>
             <div>
-            <Buttonapp
-              buttonColor="#011947"
-              buttonHeight="3rem"
-              buttonWidth="10rem"
-            >
-              Download on the <span>App Store</span>{" "}
-              <img className="arrow_right" src={Apple} alt="applelogo" />
-            </Buttonapp>
-            <Buttonapp
-              buttonColor="#011947"
-              buttonHeight="3rem"
-              buttonWidth="10rem"
-            >
-              Download on the <span>Google Play</span>{" "}
-              <img className="arrow_right" src={Google} alt="googlelogo" />
-            </Buttonapp>
-          </div>
+              <Buttonapp buttonHeight="3rem" buttonWidth="10rem">
+                <img className="arrow_right" src={Apple} alt="applelogo" />
+                Download on the <span>App Store</span>{" "}
+              </Buttonapp>
+              <Buttonapp buttonHeight="3rem" buttonWidth="10rem">
+                <img className="arrow_right" src={Google} alt="googlelogo" />
+                <p>GET IT ON <span>Google Play</span></p>{" "}
+              </Buttonapp>
+            </div>
           </div>
         </div>
         <div className="footer_two">
